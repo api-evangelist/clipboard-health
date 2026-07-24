@@ -1,0 +1,27 @@
+# Clipboard Health
+
+> Clipboard Health (now branded "Clipboard", clipboardworks.com) is a U.S. healthcare workforce marketplace connecting workplaces — long-term care, home health & hospice, hospitals, dental, and travel — with vetted independent professionals to fill open shifts, handling credentialing, scheduling, compliance, and instant pay. Backed by Initialized Capital and IVP. There is no public consumer API; the public developer surface is a set of open-source TypeScript utility libraries on npm.
+
+## Company
+- Website: https://www.clipboardworks.com
+- About: https://www.clipboardworks.com/about
+- Pricing: https://www.clipboardworks.com/pricing
+- Blog: https://www.clipboardworks.com/resources/blog
+- Support: https://www.clipboardworks.com/support
+- Worker / workplace app & login: https://clipboard.health/login
+
+## Open-source packages (npm @clipboard-health)
+- @clipboard-health/json-api: https://www.npmjs.com/package/@clipboard-health/json-api
+- @clipboard-health/json-api-nestjs: https://www.npmjs.com/package/@clipboard-health/json-api-nestjs
+- @clipboard-health/contract-core: https://www.npmjs.com/package/@clipboard-health/contract-core
+- @clipboard-health/rules-engine: https://www.npmjs.com/package/@clipboard-health/rules-engine
+- @clipboard-health/testing-core: https://www.npmjs.com/package/@clipboard-health/testing-core
+- @clipboard-health/eslint-config: https://www.npmjs.com/package/@clipboard-health/eslint-config
+- Source (GitHub org): https://github.com/ClipboardHealth
+
+## Security
+- security.txt: https://www.clipboardworks.com/.well-known/security.txt (Contact: security@clipboardhealth.com)
+
+## Legal
+- Terms of Service: https://www.clipboardworks.com/terms-of-service
+- Privacy Policy: https://www.clipboardworks.com/privacy-policy

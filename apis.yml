@@ -1,8 +1,18 @@
 aid: clipboard-health
 name: Clipboard Health
-description: 'Clipboard Health is a company surfaced as a portfolio company of initialized-capital, ivp
-  and added to the API Evangelist network as a stub for enrichment. Sector: marketplaces. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: >-
+  Clipboard Health (now branded simply "Clipboard", at clipboardworks.com) is a
+  U.S. healthcare workforce marketplace that connects workplaces — long-term
+  care facilities, home health and hospice agencies, hospitals, dental practices,
+  and travel assignments — with vetted, independent professionals to fill open
+  shifts. Workplaces post shifts and Clipboard matches, credentials, schedules,
+  and pays qualified workers, with the platform handling documentation, compliance,
+  and instant pay for pros. The company reports serving more than 6,500 workplaces
+  and over a million workers nationwide. Backed by Initialized Capital and IVP,
+  it was added to the API Evangelist network as a portfolio company. Clipboard
+  Health publishes no public consumer API; its public developer surface is limited
+  to open-source TypeScript utility libraries on npm (the @clipboard-health scope,
+  from github.com/ClipboardHealth/core-utils) and a minimal RFC 9116 security.txt.
 url: https://raw.githubusercontent.com/api-evangelist/clipboard-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,18 +21,73 @@ x-backed-by:
 - ivp
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-rebrand: Clipboard Health -> Clipboard (clipboardhealth.com 307-redirects to www.clipboardworks.com)
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Marketplaces
+- Healthcare
+- Staffing
+- Workforce
+- Labor Marketplace
+- Nursing
+- Dental
+- Gig Economy
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+image: https://www.clipboardworks.com/og-link-preview.webp
 common:
 - type: Website
-  url: http://clipboardhealth.com
+  url: https://www.clipboardworks.com
+- type: Blog
+  url: https://www.clipboardworks.com/resources/blog
+- type: Pricing
+  url: https://www.clipboardworks.com/pricing
+- type: Support
+  url: https://www.clipboardworks.com/support
+- type: TermsOfService
+  url: https://www.clipboardworks.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.clipboardworks.com/privacy-policy
+- type: Login
+  url: https://clipboard.health/login
+- type: GitHubOrganization
+  url: https://github.com/ClipboardHealth
+- type: LinkedIn
+  url: https://www.linkedin.com/company/clipboard/
+- type: Packages
+  url: packages/clipboard-health-packages.yml
+- type: WellKnown
+  url: well-known/clipboard-health-well-known.yml
+- type: SecurityTxt
+  url: well-known/clipboard-health-security.txt
+- type: VulnerabilityDisclosure
+  url: security/clipboard-health-vulnerability-disclosure.yml
+- type: Security
+  url: well-known/clipboard-health-security.txt
+- type: DomainSecurity
+  url: security/clipboard-health-domain-security.yml
+- type: LLMsTxt
+  url: llms/clipboard-health-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

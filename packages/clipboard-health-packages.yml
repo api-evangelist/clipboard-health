@@ -1,0 +1,73 @@
+generated: '2026-07-18'
+method: searched
+source: https://www.npmjs.com/org/clipboard-health
+notes: >-
+  These are Clipboard Health's first-party OPEN-SOURCE TypeScript utility
+  libraries (all published from github.com/ClipboardHealth/core-utils). They are
+  general-purpose developer utilities (JSON:API helpers, Zod contract schemas, a
+  rules engine, testing + eslint config) — NOT client SDKs for a Clipboard Health
+  consumer API. Clipboard Health publishes no public REST/GraphQL API, so no
+  `SDKs` pointer is emitted (that would misrepresent these as API clients). Note:
+  api-docs.clipboard.app belongs to a different company ("Clipboard", the K-12
+  purchasing platform at clipboard.app) and is NOT this provider.
+packages:
+  - language: javascript
+    registry: npm
+    name: "@clipboard-health/json-api"
+    version: 2.7.0
+    url: https://www.npmjs.com/package/@clipboard-health/json-api
+    install: npm install @clipboard-health/json-api
+    repository: https://github.com/ClipboardHealth/core-utils
+    description: TypeScript-friendly utilities for adhering to the JSON:API specification.
+    official: true
+    kind: utility
+  - language: javascript
+    registry: npm
+    name: "@clipboard-health/json-api-nestjs"
+    version: 2.10.0
+    url: https://www.npmjs.com/package/@clipboard-health/json-api-nestjs
+    install: npm install @clipboard-health/json-api-nestjs
+    repository: https://github.com/ClipboardHealth/core-utils
+    description: TypeScript-friendly JSON:API utilities for NestJS.
+    official: true
+    kind: utility
+  - language: javascript
+    registry: npm
+    name: "@clipboard-health/contract-core"
+    version: 4.2.0
+    url: https://www.npmjs.com/package/@clipboard-health/contract-core
+    install: npm install @clipboard-health/contract-core
+    repository: https://github.com/ClipboardHealth/core-utils
+    description: Shared Zod schemas for Clipboard's contracts.
+    official: true
+    kind: utility
+  - language: javascript
+    registry: npm
+    name: "@clipboard-health/rules-engine"
+    version: 3.8.0
+    url: https://www.npmjs.com/package/@clipboard-health/rules-engine
+    install: npm install @clipboard-health/rules-engine
+    repository: https://github.com/ClipboardHealth/core-utils
+    description: A pure functional rules engine to keep logic-dense code simple.
+    official: true
+    kind: utility
+  - language: javascript
+    registry: npm
+    name: "@clipboard-health/testing-core"
+    version: 2.9.0
+    url: https://www.npmjs.com/package/@clipboard-health/testing-core
+    install: npm install @clipboard-health/testing-core
+    repository: https://github.com/ClipboardHealth/core-utils
+    description: TypeScript-friendly testing utilities.
+    official: true
+    kind: utility
+  - language: javascript
+    registry: npm
+    name: "@clipboard-health/eslint-config"
+    version: 7.9.0
+    url: https://www.npmjs.com/package/@clipboard-health/eslint-config
+    install: npm install @clipboard-health/eslint-config
+    repository: https://github.com/ClipboardHealth/core-utils
+    description: Clipboard's shared ESLint configuration.
+    official: true
+    kind: utility
