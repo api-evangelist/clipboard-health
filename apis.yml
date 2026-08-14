@@ -1,18 +1,15 @@
 aid: clipboard-health
 name: Clipboard Health
-description: >-
-  Clipboard Health (now branded simply "Clipboard", at clipboardworks.com) is a
-  U.S. healthcare workforce marketplace that connects workplaces — long-term
-  care facilities, home health and hospice agencies, hospitals, dental practices,
-  and travel assignments — with vetted, independent professionals to fill open
-  shifts. Workplaces post shifts and Clipboard matches, credentials, schedules,
-  and pays qualified workers, with the platform handling documentation, compliance,
-  and instant pay for pros. The company reports serving more than 6,500 workplaces
-  and over a million workers nationwide. Backed by Initialized Capital and IVP,
-  it was added to the API Evangelist network as a portfolio company. Clipboard
-  Health publishes no public consumer API; its public developer surface is limited
-  to open-source TypeScript utility libraries on npm (the @clipboard-health scope,
-  from github.com/ClipboardHealth/core-utils) and a minimal RFC 9116 security.txt.
+description: Clipboard Health (now branded simply "Clipboard", at clipboardworks.com) is a U.S. healthcare
+  workforce marketplace that connects workplaces — long-term care facilities, home health and hospice
+  agencies, hospitals, dental practices, and travel assignments — with vetted, independent professionals
+  to fill open shifts. Workplaces post shifts and Clipboard matches, credentials, schedules, and pays
+  qualified workers, with the platform handling documentation, compliance, and instant pay for pros. The
+  company reports serving more than 6,500 workplaces and over a million workers nationwide. Backed by
+  Initialized Capital and IVP, it was added to the API Evangelist network as a portfolio company. Clipboard
+  Health publishes no public consumer API; its public developer surface is limited to open-source TypeScript
+  utility libraries on npm (the @clipboard-health scope, from github.com/ClipboardHealth/core-utils) and
+  a minimal RFC 9116 security.txt.
 url: https://raw.githubusercontent.com/api-evangelist/clipboard-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -86,6 +83,40 @@ common:
   url: security/clipboard-health-domain-security.yml
 - type: LLMsTxt
   url: llms/clipboard-health-llms.txt
+- type: LLMsTxt
+  url: llms/clipboard-health-llms.txt
+- type: Packages
+  url: packages/clipboard-health-packages.yml
+- type: Security
+  url: https://www.clipboardworks.com/.well-known/security.txt
+- type: SecurityTxt
+  url: well-known/clipboard-health-security.txt
+- type: WellKnown
+  url: well-known/clipboard-health-well-known.yml
+- type: VulnerabilityDisclosure
+  url: security/clipboard-health-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/clipboard-health-domain-security.yml
+- type: Website
+  url: https://www.clipboardworks.com/
+- type: About
+  url: https://www.clipboardworks.com/about
+- type: SignUp
+  url: https://www.clipboardworks.com/for-workers
+- type: Login
+  url: https://clipboard.health/enter
+- type: LLMsTxt
+  url: llms/clipboard-health-llms.txt
+- type: Packages
+  url: packages/clipboard-health-packages.yml
+- type: SecurityTxt
+  url: well-known/clipboard-health-security.txt
+- type: WellKnown
+  url: well-known/clipboard-health-well-known.yml
+- type: VulnerabilityDisclosure
+  url: security/clipboard-health-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/clipboard-health-domain-security.yml
 x-enrichment:
   date: '2026-07-19'
   status: backfilled
