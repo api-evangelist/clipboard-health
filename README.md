@@ -64,6 +64,88 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Clipboard Health is a company surfaced as a portfolio company of initialized-capital, ivp and added to the API Evangelist network as a stub for enrichment. Sector: marketplaces. This profile is a lead awaiting the enrichment pipeline.
+Clipboard Health (now branded simply "Clipboard", at clipboardworks.com) is a U.S. healthcare workforce marketplace that connects workplaces — long-term care facilities, home health and hospice agencies, hospitals, dental practices, and travel assignments — with vetted, independent professionals to fill open shifts. Workplaces post shifts and Clipboard matches, credentials, schedules, and pays qualified workers, with the platform handling documentation, compliance, and instant pay for pros. The company reports serving more than 6,500 workplaces and over a million workers nationwide. Backed by Initialized Capital and IVP, it was added to the API Evangelist network as a portfolio company. Clipboard Health publishes no public consumer API; its public developer surface is limited to open-source TypeScript utility libraries on npm (the @clipboard-health scope, from github.com/ClipboardHealth/core-utils) and a minimal RFC 9116 security.txt.
 
-Backed by: initialized-capital, ivp — http://clipboardhealth.com
+**Areas:** Company · Marketplace · Healthcare · Staffing · Workforce · Labor Marketplace · Nursing · Dental · Gig Economy
+
+## Clipboard Health on APIs.io
+
+Everything profiled for Clipboard Health is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/clipboard-health/](https://apis.io/providers/clipboard-health/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Clipboard Health Domain Security](https://apis.io/security/clipboard-health/clipboard-health-domain-security/)
+- [Clipboard Health Vulnerability Disclosure](https://apis.io/security/clipboard-health/clipboard-health-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.clipboardworks.com)
+- [Pricing](https://www.clipboardworks.com/pricing)
+- [Sign up](https://www.clipboardworks.com/for-workers)
+- [Support](https://www.clipboardworks.com/support)
+- [Blog](https://www.clipboardworks.com/resources/blog)
+- [Security](https://www.clipboardworks.com/.well-known/security.txt)
+- [Terms of service](https://www.clipboardworks.com/terms-of-service)
+- [Privacy policy](https://www.clipboardworks.com/privacy-policy)
+- [GitHub](https://github.com/ClipboardHealth)
+
+## API Evangelist rating
+
+**Kin Score 17.5** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 44.7 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 15.6** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/clipboard-health/](https://apis.io/providers/clipboard-health/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Clipboard Health: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/clipboard-health/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
